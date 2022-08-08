@@ -40,7 +40,8 @@ public class Produto {
 		
 		return "Código: " + this.getCodigo() +
 				"\nNome: " + this.getNome() + 
-				"\nPreço: " + Utils.doubleParaString(this.preco);
+				"\nPreço: " + Utils.doubleParaString(this.preco) +
+				"\n-----------------------";
 	}
 
 }
